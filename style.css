@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.qutu1{
+    height: 25px;
+    width: 25px;
+    background: red;
+    position: relative;
+    animation: ani 4s infinite;
+
+}
+.qutu1 img ani{
+    background: url(foto/indir.jfif);
+    height: 250px;
+    width: 500px;
+}
+@keyframes ani{
+    0%{
+        top: 0px;
+        left: 0;
+    }
+    50%{
+        top: 250px;
+left: 100px;
+    }
+}
+.qutu2{
+    height: 25px;
+    width: 25px;
+    background: red;
+    position: relative;
+    animation: ani2 4s infinite;
+
+}
+.qutu2 img ani2{
+    height: 250px;
+    width: 500px;
+}
+@keyframes ani2{
+    0%{
+        top: 0px;
+        left: 0;
+    }
+    50%{
+        top: 200px;
+left: 300px;
+
+    }
+    
+}
+.qutu3{
+    position: relative;
+    animation: ani3 4s infinite;
+}
+@keyframes ani3{
+    0%{
+        top: 0px;
+        left: 0;
+    }
+    50%{
+        top: 180px;
+        left: 500px;
+    }
+}
+.qutu4{
+    position: relative;
+    animation: ani4 4s infinite;
+}
+@keyframes ani4{
+    0%{
+        top: 0px;
+        left: 0;
+    }
+    50%{
+        top: -45px;
+        left: 700px;
+        transform rotate (360deg);
+    }
+}
+.qutu5{
+    position: relative;
+    animation: ani5 4s infinite;
+}
+@keyframes ani5{
+    0%{
+        top: 0px;
+        left: 0;
+    }
+        
+        
+    
+    50%{
+        top: -250px;
+        left: 900px;
+    }
+}
+.qutu6{
+    position: relative;
+    animation: ani6 4s infinite;
+}
+@keyframes ani6{
+    0%{
+        top: 0px;
+        left: 0;
+    }
+    50%{
+        top: -500px;
+        left: 1150px;
+    }
+}
+
+
+
+
+
+
+
